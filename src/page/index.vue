@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header></Header>
+        <vHeader></vHeader>
         <div class="article_list">
             <ul>
                 <li v-for="i in list" :key="i.id">
@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Header from '../components/header.vue'
-import Footer from '../components/footer.vue'
+import vHeader from '../components/header.vue'
+import vFooter from '../components/footer.vue'
 export default {
-    components: { Header, Footer },
+    components: { vHeader, vFooter },
     data() {
         return {
             list: []
