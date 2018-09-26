@@ -1,5 +1,5 @@
 // api
-var root = 'https://cnodejs.org/api/v1'
+var root = '/api/v1'
 // axios
 var axios = require('axios')
 // 判断元素类型
